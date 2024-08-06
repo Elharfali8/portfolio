@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* --------- Fonts ---------- */
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+/* --------------------------- */
+
+
+/* --------- COLORS ---------- */
+.dark {
+  color: #000000;
+}
+.dark-bg {
+  background-color: #000000;
+}
+.level-1-cl {
+  color: #181823;
+}
+.level-1-bg {
+  background-color: #181823;
+}
+.light-grey-cl {
+  color: #DEECF9;
+}
+.light-grey-bg {
+  background-color: #DEECF9;
+}
+.dark-grey-cl {
+  color: #C7E0F4;
+}
+.dark-grey-bg {
+  background-color: #C7E0F4;
+}
+.white-cl {
+  color: #FFFFFF;
+}
+.white-bg {
+  background-color: #FFFFFF;
+}
+.primary-cl {
+  color: #5221E6;
+}
+.primary-bg {
+  background-color: #5221E6;
+}
+.green-cl {
+  color: #3CC74E;
+}
+.green-bg {
+  background-color: #3CC74E;
+}
+.pink-cl {
+  color: #E95D90;
+}
+.pink-bg {
+  background-color: #E95D90;
+}
+.peach-cl {
+  color: #FFF3E4;
+}
+.peach-bg {
+  background-color: #FFF3E4;
+}
+.violet-cl {
+  color: #FBE4FF;
+}
+.violet-bg {
+  background-color: #FBE4FF;
+}
+/* --------------------------- */
+
+/* --------- Texts ---------- */
+.label-1 {
+  font-size: 117px;
+}
+h1 {
+  font-size: 76px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+h2 {
+  font-size: 55px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+h3 {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+h4 {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+h5 {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.text {
+  font-size: 16px;
+}
+.overline {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+/* --------------------------- */
+
+/* --------- Fonts ---------- */
+/* --------------------------- */
