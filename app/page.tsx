@@ -1,14 +1,24 @@
 import About from '@/components/About'
 import Hero from '@/components/Hero'
+import Projects from '@/components/Projects';
+import Skills from '@/components/Skills'
 import React from 'react'
 
-const HomePage = () => {
+export default function HomePage() {
   return (
-    <main>
+    <main
+      className="
+        min-h-screen
+        bg-gradient-to-br
+        from-slate-950
+        via-slate-900
+        to-blue-900
+      "
+    >
       <Hero />
       <About />
+      <Skills />
+      <Projects />
     </main>
-  )
+  );
 }
-
-export default HomePage
