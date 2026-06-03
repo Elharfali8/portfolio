@@ -1,9 +1,11 @@
 'use client'
 import React, { useState } from 'react'
 import SectionTitle from './global/SectionTitle'
+type Category = 'frontend' | 'fullstack' | 'realworld';
 
 const Projects = () => {
-  const [activeCategory, setActiveCategory] = useState('frontend');
+    const [activeCategory, setActiveCategory] =
+      useState<Category>('frontend');
 
   const projects = {
     frontend: [
